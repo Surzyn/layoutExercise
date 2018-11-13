@@ -1,0 +1,95 @@
+body{
+    border: 3px solid green;
+}
+
+nav {
+    background-color: aliceblue;
+    min-width: 200px;
+    position: fixed;
+    border: 2px solid red;
+}
+
+#navbar{
+    height: 100%;
+    min-width: 200px;
+    width: 200px;
+}
+
+section{
+    border: 2px solid yellow;
+    position: relative;
+}
+
+#content{
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
+
+.info{
+    background-color: black;
+    position: absolute;
+    color: white;
+}
+
+.info.start{
+    left: 0;
+    top: 0;
+}
+
+.info.end{
+    right: 0;
+    bottom: 0;
+}
+
+footer{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+    border: 2px solid blue;
+    margin: 0;
+    background-color: aqua;
+}
+
+footer p {
+    width: 300px;
+    border: 2px solid lime;
+    margin: 10 auto;
+    position: relative;
+    text-align: center;
+}
+
+.square{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    border: 2px lime double
+}
+
+.square.red{
+    background-color: red;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.square.blue{
+    background-color: blue;
+}
+
+.square.black{
+    background-color: black;
+    position: absolute;
+    top: 25px;
+    left: 25px;
+}
+
+.fix-footer-space{
+    height: 100px;
+}
+
+main > span.info{
+    z-index: 2;
+}
