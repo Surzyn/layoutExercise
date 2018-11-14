@@ -9,12 +9,6 @@ nav {
     border: 2px solid red;
 }
 
-#navbar{
-    height: 100%;
-    min-width: 200px;
-    width: 200px;
-}
-
 section{
     border: 2px solid yellow;
     position: relative;
